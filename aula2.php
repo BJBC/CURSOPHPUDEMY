@@ -4,9 +4,14 @@ $nome = "joão";
 $casa = 'amarela';
 $salario = 189.89;
 
+echo "<br/>";
+
 $frutas = array("uva","pinha","laranja");
 echo $frutas[1];//laranja
 echo "<br/>";
+
+$marca = array("aa", "bb", "cc", "dd", "ee");
+echo $marca[3];
 
 //$nascimento = new DateTime();//data atual
 //var_dump($nascimento);//mostra o objeto
