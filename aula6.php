@@ -34,11 +34,12 @@ echo "<br/>";echo "<br/>";
 $data = json_decode($json, true);//TRANSFORMA JSON EM ARRAY
 //se não colocar "true" será um objeto
 print_r($data);//para imprimir array
+//Array ( [0] => Array ( [nome] => joão [idade] => 20 [sexo] => m ) [1] => Array ( [nome] => maria [idade] => 25 [sexo] => f ) )
 
 echo "<br/>";echo "<br/>";
 $data = json_decode($json);//TRANSFORMA JSON EM OBJETO
 //se não colocar "true" será um objeto
 print_r($data);//para imprimir array
-
+//Array ( [0] => stdClass Object ( [nome] => joão [idade] => 20 [sexo] => m ) [1] => stdClass Object ( [nome] => maria [idade] => 25 [sexo] => f ) )
 
 ?>
